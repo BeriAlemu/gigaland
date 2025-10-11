@@ -7,7 +7,7 @@ function App (){
     <div>
         <Header />
         <Hero />
-        <Coins />
+        {/* <Coins /> */}
     </div>
   )
 }

@@ -1,31 +1,9 @@
 function Coins(){
     return(
-        <div>
-            <div className="flex">
-                <div className="">
-                    <img src="/download-removebg-preview (3).png" alt="" className="" />
-                    <p>metamask</p>
-                </div>
-                <div>
-                    <img src="/download-removebg-preview (3).png" alt="" />
-                    <p>metamask</p>
-                </div>
-                <div>
-                    <img src="/download-removebg-preview (3).png" alt="" />
-                    <p>metamask</p>
-                </div>
-                <div>
-                    <img src="/download-removebg-preview (3).png" alt="" />
-                    <p>metamask</p>
-                </div>
-                <div>
-                    <img src="/download-removebg-preview (3).png" alt="" />
-                    <p>metamask</p>
-                </div>
-            </div>
+        <div className="w-20 border-2 border-black flex flex-col bg-[]">
+            <img src="public/download-removebg-preview (1).png" alt="" />
         </div>
-    )
+    ) 
 }
-
 
 export default Coins;
