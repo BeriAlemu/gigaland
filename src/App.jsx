@@ -1,6 +1,7 @@
 import Coins from "./sections/Coins";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
+import Items from "./sections/Items";
 
 function App (){
   return(
@@ -9,6 +10,7 @@ function App (){
         <Hero />
         <div className="bg-[#2f2e2c]">
           <Coins />
+          <Items />
         </div>
     </div>
   )
