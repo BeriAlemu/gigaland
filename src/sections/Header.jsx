@@ -11,8 +11,8 @@ function Header() {
   }
   return (
     <>
-      <div className={`absolute h-screen bg-[#202753]
-      ${!isOpen && "translate-x-60"} z-1 w-60 right-0 transition-all duration-300 `}>
+      <div className={`fixed h-screen backdrop-blur-3xl
+      ${!isOpen && "translate-x-60"} z-1 w-60 right-0 transition-all duration-300`}>
         <Humbergur onClose = {humbergurHandler} />
       </div>
       <div
@@ -41,7 +41,7 @@ function Header() {
           </div>
           <div className="flex items-center gap-3 ">
             <Button className="hidden md:block">connect wallet</Button>
-            <button className="text-white text-4xl" onClick={humbergurHandler}>
+            <button className="text-white text-4xl lg:hidden" onClick={humbergurHandler}>
               <MdMenu />
             </button>
           </div>

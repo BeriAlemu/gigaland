@@ -2,35 +2,36 @@ import Button from "../components/Button";
 
 function Hero (){
     return(
-        <section className="relative">
-            <div className="bg-[url('/dark-planet-space-landscape_23-2151889136.jpg')] absolute -top-32 w-full 
-        h-175 -z-100000 bg-cover bg-center bg-no-repeat"></div>
-            <div className=" text-amber-100 flex max-w-7xl mx-auto">
-                <div className="flex-col pt-10 w-1/2">
+        <section className="relative pb-10">
+            <div className="bg-[url('/dark-planet-space-landscape.jpg')] absolute -top-32 w-full 
+        h-260 lg:h-175 -z-100000 bg-cover bg-center bg-no-repeat"></div>
+            <div className=" text-amber-100 flex flex-col-reverse lg:flex-row max-w-7xl mx-auto px-12">
+                <div className="flex flex-col pt-10 lg:w-1/2">
                     <div className="text-[#b278fb] ">GIGALAND MARKET</div>
-                    <h1 className="font-bold text-5xl pt-2"> Create, sell or collect <br /> digital items.</h1>
+                    <h1 className="font-bold text-5xl pt-2"> Create, sell or collect digital items.</h1>
                     <p className="pt-5 text-2xl">unit of data stoled on a digital ledger, called a blockcain,that certifies a digital asset to 
                         be unique and terefore not interchangable</p>
-                    <button className="relative mt-5 pr-10 pl-10 p-2 g5 shadow-500 rounded-full group border-blue bg-[#b278fb]">
-                         <span className="text-amber-50 text-xl"> Explore </span>
+                    <button className="relative mt-5 pr-10 pl-10 p-2 g5 shadow-500 rounded-full group border-blue
+                     bg-[#b278fb]">
+                         <span className="text-amber-50 text-xl "> Explore </span>
                     </button>
-                    <div className="flex mt-10 font-bold">
-                        <div className="flex-col pr-15">
-                            <p className="text-3xl">94215</p>
+                    <div className="flex mt-5 lg:mt-8 font-bold justify-around">
+                        <div className="flex-col text-center">
+                            <p className="text-xl lg:text-3xl">94215</p>
                             <p>Collectibles</p>
                         </div>
-                        <div className="flex-col pr-15">
-                            <p className="text-3xl">27k</p>
+                        <div className="flex-col text-center">
+                            <p className="text-xl lg:text-3xl">27k</p>
                             <p>Auctions</p>
                         </div>
-                        <div className="flex-col">
-                            <p className="text-3xl">4K</p>
+                        <div className="flex-col text-center">
+                            <p className="text-xl lg:text-3xl">4K</p>
                             <p>NFT Artist</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="/Untitled_design__1_-removebg-preview.png" alt="" className="w-150 pl-15 ml-5" />
+                <div className="flex justify-center w-full ">
+                    <img src="/Untitled_design__1_-removebg-preview.png" alt="" className="w-150 p-0 lg:pl-15 m-0 lg:ml-5" />
                 </div>
                 <div>
                     

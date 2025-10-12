@@ -7,7 +7,9 @@ function App (){
     <div>
         <Header />
         <Hero />
-        {/* <Coins /> */}
+        <div className="bg-[#2f2e2c]">
+          <Coins />
+        </div>
     </div>
   )
 }
