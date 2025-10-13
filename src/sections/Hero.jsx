@@ -1,9 +1,7 @@
 
 function Hero (){
     return(
-        <section className="relative pb-10">
-            <div className="bg-[url('public/hero-trial.jpg')] absolute -top-32 w-full 
-        h-260 lg:h-175 -z-100000 bg-cover bg-center bg-no-repeat"></div>
+        <section className="pb-10">
             <div className=" text-amber-100 flex flex-col-reverse lg:flex-row max-w-7xl mx-auto px-12">
                 <div className="flex flex-col pt-10 lg:w-1/2">
                     <div className="text-[#b278fb] ">GIGALAND MARKET</div>

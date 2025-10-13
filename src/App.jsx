@@ -10,13 +10,15 @@ import TopSellers from "./sections/TopSellers";
 function App (){
   return(
     <div>
-        <Header />
-        <Hero />
+      <div className="bg-[url('public/hero-trial.jpg')] w-full -z-100000 bg-cover bg-center bg-no-repeat">
+              <Header />
+              <Hero />
+        </div>
         <div className="bg-[#2f2e2c]">
           <Coins />
           <Items />
           <TopSellers />
-          <HotCollection />
+          {/* <HotCollection /> */}
           <Sell />
           <Footer />
         </div>

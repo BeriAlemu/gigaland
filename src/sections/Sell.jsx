@@ -4,13 +4,13 @@ import { MdOutlineSell } from "react-icons/md";
 
 function Sell() {
   return (
-    <div className="mt-10 max-w-6xl mx-auto">
+    <div className="mt-10 max-w-6xl mx-auto ">
       <div className="max-w-6xl mx-auto px-10 ">
         <div className="text-2xl text-white font-bold">
           <h2>Create and Sell Now</h2>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between lg:flex-row flex-col items-center">
           <div className=" w-80 border-1 cardshadow border-white/20 p-5 items-center mt-10">
             <div className="text-3xl text-white bg-[#b278fb] p-5 w-18 text-center ">
               <GiWallet />

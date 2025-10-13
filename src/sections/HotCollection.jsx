@@ -7,22 +7,6 @@ function HotCollection() {
         <h2>Hot Collections</h2>
       </div>
       <div className="flex justify-between w-full">
-        <Splide
-          aria-label="crousle"
-          options={{
-            perPage: 4,
-            perMove: 1,
-            arrows: true,
-            pagination: true,
-            gap: "1rem",
-            breakpoints: {
-              1024: { perPage: 3 },
-              768: { perPage: 2 },
-              480: { perPage: 1 },
-            },
-          }}
-        >
-          <SplideSlide>
             <div
               className=" cardshadow border-1 mt-10 border-white/20 w-full h-75 flex 
       flex-col items-center rounded-4xl relative"
@@ -44,8 +28,6 @@ function HotCollection() {
                 />
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
             <div
               className=" cardshadow border-1 mt-10 border-white/20 w-full h-75 flex 
       flex-col items-center rounded-4xl relative"
@@ -67,8 +49,6 @@ function HotCollection() {
                 />
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
             <div
               className=" cardshadow border-1 mt-10 border-white/20 w-full h-75 flex 
       flex-col items-center rounded-4xl relative"
@@ -90,8 +70,6 @@ function HotCollection() {
                 />
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
             <div
               className=" cardshadow border-1 mt-10 border-white/20 w-full h-75 flex 
       flex-col items-center rounded-4xl relative"
@@ -113,8 +91,6 @@ function HotCollection() {
                 />
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
             <div
               className=" cardshadow border-1 mt-10 border-white/20 w-full h-75 flex 
       flex-col items-center rounded-4xl relative"
@@ -136,8 +112,6 @@ function HotCollection() {
                 />
               </div>
             </div>
-          </SplideSlide>
-        </Splide>
       </div>
     </div>
   );
