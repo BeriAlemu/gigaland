@@ -13,7 +13,7 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">1.</div>
                 <img
-                  src="public/portrait-1.jpg"
+                  src="public/portrait/portrait-1.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
@@ -29,14 +29,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">2.</div>
                 <img
-                  src="public/portrait-2.jpg"
+                  src="public/portrait/portrait-2.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Mamie barnett</p>
+                <p className="text-white/20">2.8 ETH</p>
               </div>
             </div>
           </div>
@@ -45,14 +45,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">3.</div>
                 <img
-                  src="public/portrait-3.jpg"
+                  src="public/portrait/portrait-3.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Nicholas Daniels</p>
+                <p className="text-white/20">2.5 ETH</p>
               </div>
             </div>
           </div>
@@ -63,14 +63,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">4.</div>
                 <img
-                  src="public/portrait-4.jpg"
+                  src="public/portrait/portrait-4.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Lori Hart</p>
+                <p className="text-white/20">2.2 ETH</p>
               </div>
             </div>
           </div>
@@ -79,14 +79,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">5.</div>
                 <img
-                  src="public/portrait-5.jpg"
+                  src="public/portrait/portrait-5.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">jimmy Wright</p>
+                <p className="text-white/20">1.9 ETH</p>
               </div>
             </div>
           </div>
@@ -95,14 +95,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">6.</div>
                 <img
-                  src="public/portrait-6.jpg"
+                  src="public/portrait/portrait-6.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Karla Sharp</p>
+                <p className="text-white/20">1.6 ETH</p>
               </div>
             </div>
           </div>
@@ -113,14 +113,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">7.</div>
                 <img
-                  src="public/portrait-7.jpg"
+                  src="public/portrait/portrait-7.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Gayle Hicks</p>
+                <p className="text-white/20">1.5 ETH</p>
               </div>
             </div>
           </div>
@@ -129,14 +129,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">8.</div>
                 <img
-                  src="public/portrait-8.jpg"
+                  src="public/portrait/portrait-8.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Claude Banks</p>
+                <p className="text-white/20">1.3 ETH</p>
               </div>
             </div>
           </div>
@@ -145,14 +145,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">9.</div>
                 <img
-                  src="public/portrait-9.jpg"
+                  src="public/portrait/portrait-9.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Franklin Greer</p>
+                <p className="text-white/20">0.9 ETH</p>
               </div>
             </div>
           </div>
@@ -163,14 +163,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">10.</div>
                 <img
-                  src="public/portrait-10.jpg"
+                  src="public/portrait/portrait-10.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Stacy Long</p>
+                <p className="text-white/20">0.8 ETH</p>
               </div>
             </div>
           </div>
@@ -179,14 +179,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">11.</div>
                 <img
-                  src="public/portrait-11.jpg"
+                  src="public/portrait/portrait-11.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Ida Chapman</p>
+                <p className="text-white/20">0.6 ETH</p>
               </div>
             </div>
           </div>
@@ -195,14 +195,14 @@ function TopSellers() {
               <div className="w-10 flex items-center ">
                 <div className="text-white">12.</div>
                 <img
-                  src="public/portrait-12.jpg"
+                  src="public/portrait/portrait-12.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
               </div>
               <div className="flex flex-col pl-2 font-bold text-amber-50">
-                <p className="text-amber-50">Monica lucas</p>
-                <p className="text-white/20">3.2 ETH</p>
+                <p className="text-amber-50">Fred Ryan</p>
+                <p className="text-white/20">0.5 ETH</p>
               </div>
             </div>
           </div>

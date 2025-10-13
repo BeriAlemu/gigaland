@@ -1,4 +1,6 @@
 import { GiWallet } from "react-icons/gi";
+import { IoMdCloudUpload } from "react-icons/io";
+import { MdOutlineSell } from "react-icons/md";
 
 function Sell() {
   return (
@@ -25,7 +27,7 @@ function Sell() {
           </div>
           <div className=" w-80 border-1 cardshadow border-white/20 p-5 items-center mt-10">
             <div className="text-3xl text-white bg-[#b278fb] p-5 w-18 text-center ">
-              <GiWallet />
+              <IoMdCloudUpload />
             </div>
             <h2 className="font-bold text-2xl py-3 text-white">
               set up your wallet
@@ -39,7 +41,7 @@ function Sell() {
           </div>
           <div className=" w-80 border-1 cardshadow border-white/20 p-5 items-center mt-10">
             <div className="text-3xl text-white bg-[#b278fb] p-5 w-18 text-center ">
-              <GiWallet />
+              <MdOutlineSell />
             </div>
             <h2 className="font-bold text-2xl py-3 text-white">
               set up your wallet

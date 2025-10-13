@@ -23,7 +23,7 @@ function Header() {
         <div className="flex items-center gap-3">
           <div>
             <img
-              src="/Black White Minimalist Professional Initial Logo (1).png"
+              src="/logos/Black White Minimalist Professional Initial Logo (1).png"
               alt=""
             />
           </div>

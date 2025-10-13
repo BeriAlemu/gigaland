@@ -28,7 +28,7 @@ function HotCollection() {
       flex-col items-center rounded-4xl relative"
             >
               <img
-                src="public/collection-1.jpg"
+                src="public/collections/collection-1.jpg"
                 alt=""
                 className="w-full h-2/3 rounded-t-4xl"
               />
@@ -51,7 +51,7 @@ function HotCollection() {
       flex-col items-center rounded-4xl relative"
             >
               <img
-                src="public/collection-2.jpg"
+                src="public/collections/collection-2.jpg"
                 alt=""
                 className="w-full h-2/3 rounded-t-4xl"
               />
@@ -61,7 +61,7 @@ function HotCollection() {
               </div>
               <div className="w-12 flex items-center absolute top-44">
                 <img
-                  src="public/portrait-3.jpg"
+                  src="public/portrait-2.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
@@ -74,7 +74,7 @@ function HotCollection() {
       flex-col items-center rounded-4xl relative"
             >
               <img
-                src="public/collection-3.jpg"
+                src="public/collections/collection-3.jpg"
                 alt=""
                 className="w-full h-2/3 rounded-t-4xl"
               />
@@ -84,7 +84,7 @@ function HotCollection() {
               </div>
               <div className="w-12 flex items-center absolute top-44">
                 <img
-                  src="public/portrait-3.jpg"
+                  src="public/portrait-9.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
@@ -97,7 +97,7 @@ function HotCollection() {
       flex-col items-center rounded-4xl relative"
             >
               <img
-                src="public/collection-4.jpg"
+                src="public/collections/collection-4.jpg"
                 alt=""
                 className="w-full h-2/3 rounded-t-4xl"
               />
@@ -107,7 +107,7 @@ function HotCollection() {
               </div>
               <div className="w-12 flex items-center absolute top-44">
                 <img
-                  src="public/portrait-3.jpg"
+                  src="public/portrait-4.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
@@ -120,7 +120,7 @@ function HotCollection() {
       flex-col items-center rounded-4xl relative"
             >
               <img
-                src="public/collection-1.jpg"
+                src="public/collections/collection-1.jpg"
                 alt=""
                 className="w-full h-2/3 rounded-t-4xl"
               />
@@ -130,7 +130,7 @@ function HotCollection() {
               </div>
               <div className="w-12 flex items-center absolute top-44">
                 <img
-                  src="public/portrait-3.jpg"
+                  src="public/portrait-7.jpg"
                   alt=""
                   className="rounded-full w-full ml-2"
                 />
