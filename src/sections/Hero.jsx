@@ -1,9 +1,8 @@
-import Button from "../components/Button";
 
 function Hero (){
     return(
         <section className="relative pb-10">
-            <div className="bg-[url('/dark-planet-space-landscape.jpg')] absolute -top-32 w-full 
+            <div className="bg-[url('public/hero-trial.jpg')] absolute -top-32 w-full 
         h-260 lg:h-175 -z-100000 bg-cover bg-center bg-no-repeat"></div>
             <div className=" text-amber-100 flex flex-col-reverse lg:flex-row max-w-7xl mx-auto px-12">
                 <div className="flex flex-col pt-10 lg:w-1/2">
@@ -31,7 +30,7 @@ function Hero (){
                     </div>
                 </div>
                 <div className="flex justify-center w-full ">
-                    <img src="/Untitled_design__1_-removebg-preview.png" alt="" className="w-150 p-0 lg:pl-15 m-0 lg:ml-5" />
+                    {/* <img src="" alt="" className="w-150 p-0 lg:pl-15 m-0 lg:ml-5" /> */}
                 </div>
                 <div>
                     
