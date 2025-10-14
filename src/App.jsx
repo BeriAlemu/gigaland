@@ -2,7 +2,6 @@ import Coins from "./sections/Coins";
 import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
-import HotCollection from "./sections/HotCollection";
 import Items from "./sections/Items";
 import Sell from "./sections/Sell";
 import TopSellers from "./sections/TopSellers";
@@ -18,7 +17,6 @@ function App (){
           <Coins />
           <Items />
           <TopSellers />
-          {/* <HotCollection /> */}
           <Sell />
           <Footer />
         </div>

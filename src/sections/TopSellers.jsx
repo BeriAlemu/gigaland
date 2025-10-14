@@ -1,6 +1,3 @@
-import { PiNumberSquareOneFill } from "react-icons/pi";
-import Sellers from "../components/sellers";
-
 function TopSellers() {
   return (
     <div className="max-w-6xl mx-auto p-10 mt-10">

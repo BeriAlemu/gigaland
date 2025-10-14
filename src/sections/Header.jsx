@@ -1,6 +1,6 @@
 import Search from "../components/Search";
 import Button from "../components/Button";
-import Humbergur from "../components/humbergur";
+import Humbergur from "../components/Humbergur";
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
 
