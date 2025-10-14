@@ -44,7 +44,7 @@ function Footer (){
                     <div className="flex flex-col text-white">
                         <h2 className="font-bold pb-2">News Settler</h2>
                         <p className="pb-4">sign for our newsletter to get the <br /> lettest news in your inbox</p>
-                        <Search />
+                        <Search something={"email"} />
                         <p className="pt-2">we promise we dont spam</p>
                         <div className="flex gap-2 pt-5 text-3xl text-[#b278fb] items-center">
                             <a href=""><FaInstagram /></a>

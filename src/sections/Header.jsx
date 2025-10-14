@@ -23,12 +23,12 @@ function Header() {
         <div className="flex items-center gap-3">
           <div>
             <img
-              src="/logos/Black White Minimalist Professional Initial Logo (1).png"
+              src="/logos/gigaland.png"
               alt=""
             />
           </div>
           <div className="hidden xl:inline">
-            <Search />
+            <Search something={"Search"}/>
           </div>
         </div>
         <div className="flex items-center gap-5 space-x-20">

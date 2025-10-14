@@ -1,46 +1,40 @@
+import CoinCard from "../components/CoinCard";
+
 function Coins(){
     return(
         <div className=" flex gap-10 xl:gap-14 px-8 max-w-6xl mx-auto 
-         justify-between pt-20 bg-[#2f2e2c] mb-20 flex-col sm:flex-row items-center">
-            <div className="flex gap-13 xl:flex-row flex-col">
-                <div className=" flex flex-col p-5 bg-[#2f2e2c]
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/download-removebg-preview (1).png" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-2">formatic</p>
-                </div>
+         justify-between pt-20 bg-[#2f2e2c] mb-20 flex-col sm:flex-row items-center lg:items-stretch">
+            <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
+                <CoinCard 
+                name ={"Wallet Connect"}
+                icon ={"public/logos/coin-6.png"}/>
 
-                <div className=" flex flex-col p-5 bg-[#2f2e2c] 
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/COIN BASE.webp" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-2">formatic</p>
-                </div>
+                <CoinCard 
+                name ={"Metamask"}
+                icon ={"public/logos/coin-5.png"}/>
+
+
             </div>
 
-            <div className="flex gap-13 xl:flex-row flex-col">
-                <div className=" flex flex-col p-5 bg-[#2f2e2c]
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/download-removebg-preview (2).png" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-2">formatic</p>
-                </div>
-                <div className=" flex flex-col p-5 bg-[#2f2e2c] 
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/download-removebg-preview (3).png" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-5 pb-0">formatic</p>
-                </div>
+            <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
+                <CoinCard 
+                name ={"Bitski"}
+                icon ={"public/logos/coin-4.png"}/>
+
+                <CoinCard 
+                name ={"fortmatic"}
+                icon ={"public/logos/coin-3.png"}/>
+
             </div>
 
-            <div className="flex gap-13 xl:flex-row flex-col">
-                <div className=" flex flex-col p-5 bg-[#2f2e2c]
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/download-removebg-preview.png" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-2">formatic</p>
-                </div>
+            <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
+                <CoinCard 
+                name ={"Coinbase"}
+                icon ={"public/logos/coin-2.webp"}/>
 
-                <div className=" flex flex-col p-5 bg-[#2f2e2c]
-                cardshadow rounded-3xl border-white/20 border-1 justify-center w-35">
-                    <img src="public/logos/kraken-logo-freelogovectors.net_-400x400.png" alt="" className="w-30"/>
-                    <p className="uppercase font-bold text-white text-xl text-center pt-2">formatic</p>
-                </div>
+                <CoinCard 
+                name ={"kraken"}
+                icon ={"public/logos/coin-1.png"}/>
             </div>
         </div>
     ) 
