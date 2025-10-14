@@ -7,11 +7,11 @@ function Coins(){
             <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
                 <CoinCard 
                 name ={"Wallet Connect"}
-                icon ={"public/logos/coin-6.png"}/>
+                icon ={"/logos/coin-6.png"}/>
 
                 <CoinCard 
                 name ={"Metamask"}
-                icon ={"public/logos/coin-5.png"}/>
+                icon ={"/logos/coin-5.png"}/>
 
 
             </div>
@@ -19,22 +19,22 @@ function Coins(){
             <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
                 <CoinCard 
                 name ={"Bitski"}
-                icon ={"public/logos/coin-4.png"}/>
+                icon ={"/logos/coin-4.png"}/>
 
                 <CoinCard 
                 name ={"fortmatic"}
-                icon ={"public/logos/coin-3.png"}/>
+                icon ={"/logos/coin-3.png"}/>
 
             </div>
 
             <div className="flex gap-13 xl:flex-row sm:flex-col flex-row">
                 <CoinCard 
                 name ={"Coinbase"}
-                icon ={"public/logos/coin-2.webp"}/>
+                icon ={"/logos/coin-2.webp"}/>
 
                 <CoinCard 
                 name ={"kraken"}
-                icon ={"public/logos/coin-1.png"}/>
+                icon ={"/logos/coin-1.png"}/>
             </div>
         </div>
     ) 

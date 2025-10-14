@@ -11,7 +11,7 @@ function Items() {
             <div className="cardshadow border-white/20 border flex flex-col p-6 rounded-3xl w-full lg:max-w-60" >
               <div className="w-full">
                 <img
-                  src="public/nfts/nft 1.jpg"
+                  src="/nfts/nft 1.jpg"
                   alt=""
                   className="w-full rounded-3xl"
                   loading="lazy"
@@ -33,7 +33,7 @@ function Items() {
             <div className="cardshadow border-white/20 border flex flex-col p-6 rounded-3xl w-full lg:max-w-60" >
               <div className="w-full">
                 <img
-                  src="public/nfts/nft 2.jpg"
+                  src="/nfts/nft 2.jpg"
                   alt=""
                   className="w-full rounded-3xl"
                   loading="lazy"
@@ -57,7 +57,7 @@ function Items() {
               <div className="cardshadow border-white/20 border flex flex-col p-6 rounded-3xl w-full lg:max-w-60" >
                 <div className="w-full">
                   <img
-                    src="public/nfts/nft 4.jpg"
+                    src="/nfts/nft 4.jpg"
                     alt=""
                     className="w-full rounded-3xl"
                     loading="lazy"
@@ -79,7 +79,7 @@ function Items() {
               <div className="cardshadow border-white/20 border flex flex-col p-6 rounded-3xl w-full lg:max-w-60" >
                 <div className="w-full">
                   <img
-                    src="public/nfts/nft 5.jpg"
+                    src="/nfts/nft 5.jpg"
                     alt=""
                     className="w-full rounded-3xl lg:max-h-[235.33px]"
                     loading="lazy"
