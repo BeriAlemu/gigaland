@@ -6,7 +6,7 @@ function Footer (){
     return(
         <div>
             <div className="bg-[#0d0d1a]">
-            <div className=" max-w-7xl mx-auto p-20 mt-30 flex justify-around cardshadow max-[565px]:flex-col max-[565px]:gap-10 ">
+            <div className=" max-w-7xl mx-auto p-20 mt-30 flex justify-around max-[565px]:flex-col max-[565px]:gap-10 ">
                 <div className="flex min-[1000px]:flex-row flex-col min-[1000px]:gap-30 gap-10">
                     <div className="flex flex-col text-white">
                         <h2 className="font-bold pb-2">market place</h2>

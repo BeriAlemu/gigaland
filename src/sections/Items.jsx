@@ -18,8 +18,8 @@ function Items() {
                 />
               </div>
               <div className="pt-6 ">
-                <p className="text-white pb-1">the shiny girl</p>
-                <p className="text-white/20">0.08 ETH</p>
+                <p className="text-white pb-1">Wired Serenity</p>
+                <p className="text-white/20">0.99 ETH</p>
                 <div className="flex items-center justify-between">
                   <a href="" className="text-blue-500">
                     place a bid
@@ -40,8 +40,8 @@ function Items() {
                 />
               </div>
               <div className="pt-6 ">
-                <p className="text-white pb-1">the shiny girl</p>
-                <p className="text-white/20">0.08 ETH</p>
+                <p className="text-white pb-1">Luminous Silence</p>
+                <p className="text-white/20">1.99 ETH</p>
                 <div className="flex items-center justify-between">
                   <a href="" className="text-blue-500">
                     place a bid
@@ -64,8 +64,8 @@ function Items() {
                   />
                 </div>
                 <div className="pt-6 ">
-                  <p className="text-white pb-1">the shiny girl</p>
-                  <p className="text-white/20">0.08 ETH</p>
+                  <p className="text-white pb-1">Vantablade</p>
+                  <p className="text-white/20">4.99 ETH</p>
                   <div className="flex items-center justify-between">
                     <a href="" className="text-blue-500">
                       place a bid
@@ -86,8 +86,8 @@ function Items() {
                   />
                 </div>
                 <div className="pt-6 ">
-                  <p className="text-white pb-1">the shiny girl</p>
-                  <p className="text-white/20">0.08 ETH</p>
+                  <p className="text-white pb-1">Fragments of Tomorrow</p>
+                  <p className="text-white/20">3.99 ETH</p>
                   <div className="flex items-center justify-between">
                     <a href="" className="text-blue-500">
                       place a bid
