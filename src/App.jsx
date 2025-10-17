@@ -9,7 +9,7 @@ import TopSellers from "./sections/TopSellers";
 function App (){
   return(
     <div>
-      <div className="bg-[url('public/mock-up-2.png')] w-full -z-100000 bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/hero_pic.png')] w-full -z-100000 bg-cover bg-center bg-no-repeat">
               <Header />
               <Hero />
         </div>
